@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,100&family=Bebas+Neue&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 300px;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(95, 95, 95);
+}
+
+.sidebar nav{
+padding: 45px;
+}
+
+.sidebar nav li{
+list-style: none;
+font-size: 30px;
+padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    }
+.main{
+    width: 86vw;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(239, 241, 236);
+}
+.container{
+    display: flex;
+    height: 100vh;
+} 
+.infoContainer{
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devPic{
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.devPic img{
+    height: 78vh;
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.hello{
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.name{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.about{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px ;
+}
+.buttons button{
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+    background-color: rgb(78, 45, 54);
+    margin-top: 2%;
+    padding: 7px;
+    border-radius: 230px;
+    cursor: pointer;
+    font-size: 20px;
+}
